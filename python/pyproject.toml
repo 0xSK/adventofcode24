@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "adventofcode24"
+version = "0.1.0"
+description = ""
+authors = ["Shreyas Kishore <i@0xsk.io>"]
+readme = "README.md"
+packages = [
+    { include = "lib" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.13"
+numpy = "^2.1.3"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
