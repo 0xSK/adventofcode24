@@ -15,6 +15,7 @@ fn main() {
     match args.day {
         1 => days::day01::solve(),
         2 => days::day02::solve(),
+        3 => days::day03::solve(),
         _ => eprintln!("Day {} not implemented", args.day),
     }
 }
